@@ -1,0 +1,117 @@
+*{
+    margin:0px;
+    padding: 0%;
+    box-sizing: border-box;
+    /* background :url(food4.jpg) no-repeat ;
+    background-size: cover; */
+}
+/* Navigation bar */
+#navbar{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.2;
+}
+
+
+.container{
+    display: flex;
+}
+.container li{
+    list-style: none;
+}
+.container li a{
+    text-decoration: none;
+    display: block;
+    padding:7px  35px;
+    font-size: 1.3rem;
+    color: white;
+    border-radius: 15px;
+}
+.container li a:hover{
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+}
+
+
+
+/* Logo Sizing */
+#logo{
+    margin: 25px;
+    /* padding: 45px; */
+}
+#logo img{
+    width: 50px;
+    height: 50px;
+    margin: -10px;
+    /* padding: 45px; */
+
+}
+/* Section */
+.sect{
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid black; */
+    align-items: center;
+    justify-content: center;
+    height: 380px;
+    padding: 0px 80px 0px 80px;
+    
+    
+}
+.para{
+    margin: 0%;
+    padding: 1px;
+    font-family: 'Ephesis', cursive;
+    font-size: 30px;
+    color: rgb(224, 224, 224);
+}
+.para h2{
+    padding-bottom: 2px;
+    font-family: 'Ephesis', cursive;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+body::before{
+    content: "";
+    background:url(food1.jpg) no-repeat;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    background-size: cover;
+    opacity: 0.89;
+}
+input[type="button"]{
+    width: 20%;
+    height: 10%;
+    font-size: 17px;
+    /* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    background-color: #6e5d5d;
+    color: white;
+    opacity: 0.89;
+    cursor: pointer;
+   
+    
+}
+
+input[type="button"]:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    border: #6e5d5d;
+
+}

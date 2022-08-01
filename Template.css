@@ -1,0 +1,82 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background: url(Cloth-brand.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.menu a{
+    text-decoration: none;
+}
+.menu-bar{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    border: 2px solid gray;
+    background-color: rgb(14, 13, 13);
+    align-items: center;
+    opacity:0.7;
+
+}
+.li{
+    font-size: 1.3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    text-transform: uppercase;
+    padding: 0px 35px 0px 35px;
+}
+.li a{
+    color: white;
+    text-transform: uppercase;
+
+}
+.li input[type='search']{
+    width: 200px;
+    height: 25px;
+    border-radius: 15px;
+    border-style: none;
+    border: 1px solid black;
+    padding: 7px;
+
+}
+.drop1 li{
+ list-style: none;
+ /* padding: 0px 20px 0px 20px; */
+ width: 200px;
+ height: 75px;
+ margin-top: 5px;
+ display: relative;
+}
+.drop1 a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size :1.3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 50px;
+    
+}
+.drop1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -5px;
+    margin-bottom: -25px;
+}
+.drop1 a:hover{
+    background-color:rgb(34, 33, 33) ;
+    color: white;
+}
+.drop2{
+    display: none;
+}
+.drop1 li :hover>.drop2{
+    display: block;
+}
